@@ -131,11 +131,11 @@ body.landing .menubar div {
 }
 
 #mockup1 {
-  width: 532px;
-  height: 736px;
-  background-image: url(../images/landing/landing-mockup-1.png);
   top: 115px;
   right: -10px;
+  width: 530px;
+  height: 570px;
+  background-image: url(../images/landing/landing-mockup-1.jpg);
 }
 
 #mockup2 {
