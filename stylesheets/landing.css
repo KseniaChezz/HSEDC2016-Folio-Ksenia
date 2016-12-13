@@ -87,7 +87,7 @@ body.landing .menubar div {
   width: 30px;
   height: 4px;
   margin-top: 58px;
-  background-color: #66ffcc;
+  /*background-color: #66ffcc;*/
 }
 
 .mainSection.right h2,
@@ -99,7 +99,7 @@ body.landing .menubar div {
 
 .mainSection.right,
 .mainSection.center {
-  background-color: #879696;
+  /*background-color: #879696;*/
 }
 
 
@@ -131,11 +131,11 @@ body.landing .menubar div {
 }
 
 #mockup1 {
-  /*top: 115px;
-  right: -10px;*/
   width: 532px;
   height: 736px;
-  background-image: url(../images/landing/landing-mockup-1.jpg);
+  background-image: url(../images/landing/landing-mockup-1.png);
+  top: 115px;
+  right: -10px;
 }
 
 #mockup2 {
