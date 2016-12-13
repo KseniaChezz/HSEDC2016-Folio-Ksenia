@@ -1,9 +1,9 @@
-/*body.landing.bg {
+body.landing.bg {
   background-image: url(../images/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
   height: 3220px;
-}*/
+}
 
 body.landing * {
   -webkit-transition: all .3s ease;
@@ -144,4 +144,4 @@ body.landing .menubar div {
 
 #mockup3 {
 
-} мммм
+}
