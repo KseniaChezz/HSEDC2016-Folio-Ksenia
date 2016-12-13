@@ -66,7 +66,7 @@ body.landing .menubar div {
   font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   line-height: 36px;
-  margin-top: 26px;
+  margin-top: 27px;
 }
 
 .mainSection.center {
@@ -74,20 +74,17 @@ body.landing .menubar div {
   /*background-color: #666666;*/
 }
 
-.mainSection.center  p {
-  margin-top: 26px;
-}
-
 .mainSection.center section {
   width: 100%;
   top: 191px;
 }
 
+
 .mainSection section figure {
   width: 30px;
   height: 4px;
   margin-top: 58px;
-  /*background-color: #66ffcc;*/
+  background-color: #66ffcc;
 }
 
 .mainSection.right h2,
@@ -102,28 +99,17 @@ body.landing .menubar div {
   /*background-color: #879696;*/
 }
 
-
-/*.mainSection.center section nav {
-  display: flex;
-  margin-top: 70px;
-  font-size: 0;
-}
-
-.mainSection.center section nav a {
-  margin: 0 10px;
-}
-
 .mainSection.center footer {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 100%;
-  padding-bottom: 35px;
+  padding-bottom: 13px;
 }
 
 .mainSection.center footer p {
   font-size: 16px;
-}*/
+}
 
 .mockup {
   position: absolute;
@@ -131,17 +117,51 @@ body.landing .menubar div {
 }
 
 #mockup1 {
-  top: 115px;
-  right: -10px;
+  top: 232px;
+  right: 160px;
   width: 530px;
-  height: 570px;
+  height: 564px;
   background-image: url(../images/landing/landing-mockup-1.jpg);
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 }
 
-#mockup2 {
+#mockup21 {
+  top: 193px;
+  left: 160px;
+  width: 140px;
+  height: 316px;
+  background-image: url(../images/landing/landing-mockup-21.jpg);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
 
+#mockup22 {
+  top: 193px;
+  left: 333px;
+  width: 140px;
+  height: 396px;
+  background-image: url(../images/landing/landing-mockup-22.jpg);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
+}
+
+#mockup23 {
+  top: 193px;
+  left: 506px;
+  width: 140px;
+  height: 475px;
+  background-image: url(../images/landing/landing-mockup-23.jpg);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
 #mockup3 {
+  top: 343px;
+  left: 640px;
+  width: 760px;
+  height: 403px;
+  background-image: url(../images/landing/landing-mockup-3.jpg);
+}
 
+@media screen and (max-width: 1440px) {
+  .landingWrapper {
+    width: 100%;
+  }
 }

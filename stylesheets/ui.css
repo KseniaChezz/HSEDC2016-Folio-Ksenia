@@ -1,0 +1,49 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+}
+
+.white {
+  margin-top: 4px;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, .6);
+}
+
+.green {
+  margin-top: 57px;
+  background-color: #77ffe1;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+}
+
+.small {
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'PT Sans';
+}
+
+.large {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1180px) {
+  .small {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+  }
+
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+
+  }
+}

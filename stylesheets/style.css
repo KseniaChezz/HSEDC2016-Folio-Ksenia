@@ -4,6 +4,8 @@
 
 @import 'layout.css';
 @import 'menubar.css';
+@import 'share.css';
+@import 'ui.css';
 
 /* landing */
 @import "landing.css";
