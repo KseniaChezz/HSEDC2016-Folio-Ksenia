@@ -32,18 +32,13 @@
 }
 
 @media screen and (max-width: 1180px) {
-  .small {
-    width: 180px;
-    height: 30px;
-    line-height: 30px;
-    font-size: 11px;
+  .green {
+    margin-top: 60px;
   }
 
-  .large {
-    width: 214px;
-    height: 36px;
-    line-height: 36px;
-    font-size: 12px;
-
+  .white {
+    margin-top: -4px;
   }
+
+
 }
