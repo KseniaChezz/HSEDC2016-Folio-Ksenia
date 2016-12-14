@@ -31,13 +31,36 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 1180px) {
+/*@media screen and (max-width: 1180px) {
   .green {
     margin-top: 60px;
   }
 
   .white {
     margin-top: -4px;
+  }
+}*/
+
+@media screen and (max-width: 1179px) {
+  .small {
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .large {
+    width: 212px;
+    height: 36px;
+    line-height: 39px;
+    font-size: 13px;
+  }
+
+  .white {
+    margin-top: 4px;
+  }
+
+  .green {
+    margin-top: 57px;
   }
 
 
