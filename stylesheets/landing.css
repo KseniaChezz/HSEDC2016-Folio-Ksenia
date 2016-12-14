@@ -272,7 +272,7 @@ body.landing .menubar div {
     background-image: url(..//images/mockups/768.png);
   }
 
-  .mainSection {
+  /*.mainSection {
     width: 1024px;
     height: 568px;
   }
@@ -286,7 +286,7 @@ body.landing .menubar div {
     margin-top: 18px;
     font-size: 16px;
     line-height: 26px;
-  }
+  }*/
 
   .mainSection.center h2{
     line-height: 39px;
@@ -302,7 +302,7 @@ body.landing .menubar div {
   }
 
   .mainSection.left section{
-    left: 114px;
+    left: 319px;
   }
 
   .mainSection.right section {
