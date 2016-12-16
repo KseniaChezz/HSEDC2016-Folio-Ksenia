@@ -5,7 +5,8 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;width: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
   min-width: 768px;
   background-color: #fafafa;
   background-image: url(../images/mockups/1440.png);
@@ -26,7 +27,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
-  /*background-color: white;*/
+  background-color: white;
   width: 1440px;
   margin: 0 auto;
 }
@@ -68,14 +69,12 @@ body {
 
 .mainSection.center {
   text-align: center;
-  /*background-color: #666666;*/
 }
 
 .mainSection.center section {
   width: 100%;
   top: 191px;
 }
-
 
 .mainSection section figure {
   width: 30px;
@@ -93,7 +92,7 @@ body {
 
 .mainSection.right,
 .mainSection.center {
-  /*background-color: #879696;*/
+  background-color: #879696;
 }
 
 .mainSection.center footer {
@@ -169,7 +168,7 @@ body {
 
 @media screen and (max-width: 1179px) {
   body {
-    background-image: url(..//images/mockups/1024.png);
+    background-image: url(../images/mockups/1024.png);
   }
 
   .mainSection {
@@ -267,7 +266,7 @@ body {
 
 @media screen and (max-width: 839px) {
   body {
-    background-image: url(..//images/mockups/768.png);
+    background-image: url(../images/mockups/768.png);
   }
 
   .mainSection {
