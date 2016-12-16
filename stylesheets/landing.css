@@ -1,20 +1,17 @@
-body.landing.bg {
+* {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;width: 100%;
+  min-width: 768px;
+  background-color: #fafafa;
   background-image: url(../images/mockups/1440.png);
   background-repeat: no-repeat;
   background-position: top center;
-  height: 3220px;
 }
-
-body.landing * {
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-body.landing .menubar div {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 
 .landingWrapper {
   position: relative;
@@ -125,30 +122,30 @@ body.landing .menubar div {
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 }
 
-#mockup21 {
+#mockup2_1 {
   top: 193px;
   left: 160px;
   width: 140px;
   height: 317px;
-  background-image: url(../images/landing/landing-mockup-21.jpg);
+  background-image: url(../images/landing/landing-mockup-2_1.jpg);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
-#mockup22 {
+#mockup2_2 {
   top: 193px;
   left: 333px;
   width: 140px;
   height: 396px;
-  background-image: url(../images/landing/landing-mockup-22.jpg);
+  background-image: url(../images/landing/landing-mockup-2_2.jpg);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
-#mockup23 {
+#mockup2_3 {
   top: 193px;
   left: 506px;
   width: 140px;
   height: 475px;
-  background-image: url(../images/landing/landing-mockup-23.jpg);
+  background-image: url(../images/landing/landing-mockup-2_3.jpg);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.1);
 }
 
@@ -167,7 +164,7 @@ body.landing .menubar div {
 }
 
 @media screen and (max-width: 1179px) {
-  body.landing.bg {
+  body {
     background-image: url(..//images/mockups/1024.png);
   }
 
@@ -219,17 +216,14 @@ body.landing .menubar div {
     margin-top: 42px;
   }
 
-  .mainSection.center section nav {
-    margin-top: 42px;
-  }
-
-  .mainSection.center section nav a {
-    margin: 0 10px;
+  .mainSection.center footer {
+    top: 475px;
   }
 
   .mainSection.center footer p {
     font-size: 13px;
   }
+
 
   #mockup1 {
     top: 167px;
@@ -238,21 +232,21 @@ body.landing .menubar div {
     height: 401px;
   }
 
-  #mockup21 {
+  #mockup2_1 {
     top: 138px;
     left: 192px;
     width: 100px;
     height: 227px;
   }
 
-  #mockup22 {
+  #mockup2_2 {
     top: 138px;
     left: 316px;
     width: 100px;
     height: 283px;
   }
 
-  #mockup23 {
+  #mockup2_3 {
     top: 138px;
     left: 438px;
     width: 100px;
@@ -268,102 +262,70 @@ body.landing .menubar div {
 }
 
 @media screen and (max-width: 839px) {
-  body.landing.bg {
+  body {
     background-image: url(..//images/mockups/768.png);
   }
 
   .mainSection {
-    width: 1024px;
-    height: 568px;
-  }
-
-  .mainSection h2 {
-    font-size: 30px;
-    line-height: 39px;
-  }
-
-  .mainSection p {
-    margin-top: 18px;
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .mainSection.center h2{
-    line-height: 39px;
-  }
-
-  .mainSection.center p{
-    margin-top: 18px;
-  }
-
-  .mainSection section {
-    top: 137px;
-    width: 342px;
+    width: 839px;
+    height: 1024px;
   }
 
   .mainSection.left section{
-    left: 114px;
+    left: 149px;
   }
 
   .mainSection.right section {
-    top: 137px;
-    right: 114px;
+    right: 149px;
   }
 
   .mainSection.center section {
-    top: 137px;
+    top: 187px;
   }
 
-  .mainSection section figure {
-    width: 22px;
-    height: 3px;
-    margin-top: 42px;
-  }
-
-  .mainSection.center section nav {
-    margin-top: 42px;
-  }
-
-  .mainSection.center section nav a {
-    margin: 0 10px;
-  }
-
-  .mainSection.center footer p {
-    font-size: 13px;
+  .mainSection.center footer {
+    top: 931px;
   }
 
   #mockup1 {
-    top: 167px;
-    right: 114px;
-    width: 376px;
-    height: 401px;
+    width: 541px;
+    height: 584px;
+    margin: 315px -41px 0 148px;
   }
 
-  #mockup21 {
-    top: 137px;
-    left: 114px;
-    width: 100px;
-    height: 227px;
+  #mockup2_1 {
+    top: 456px;
+    left: 173px;
+    width: 141px;
+    height: 317px;
   }
 
-  #mockup22 {
-    top: 137px;
-    left: 238px;
-    width: 100px;
-    height: 282px;
+  #mockup2_2 {
+    top: 456px;
+    left: 347px;
+    width: 141px;
+    height: 396px;
   }
 
-  #mockup23 {
-    top: 137px;
-    left: 360px;
-    width: 100px;
-    height: 339px;
+  #mockup2_3 {
+    top: 456px;
+    left: 520px;
+    width: 141px;
+    height: 475px;
   }
 
   #mockup3 {
-    top: 241px;
-    left: 455px;
-    width: 540px;
-    height: 284px;
+    top: 505px;
+    left: 157px;
+    width: 762px;
+    height: 404px;
   }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 { background-image: url(../images/landing/landing-mockup-1@2x.jpg); }
+  #mockup2_1 { background-image: url(../images/landing/landing-mockup-2_1@2x.jpg); }
+  #mockup2_2 { background-image: url(../images/landing/landing-mockup-2_2@2x.jpg); }
+  #mockup2_3 { background-image: url(../images/landing/landing-mockup-2_3@2x.jpg); }
+  #mockup3 { background-image: url(../images/landing/landing-mockup-3@2x.jpg); }
 }

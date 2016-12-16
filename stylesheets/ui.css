@@ -31,37 +31,29 @@
   font-weight: bold;
 }
 
-/*@media screen and (max-width: 1180px) {
-  .green {
-    margin-top: 60px;
-  }
-
-  .white {
-    margin-top: -4px;
-  }
-}*/
 
 @media screen and (max-width: 1179px) {
-  .small {
-    width: 250px;
-    height: 40px;
-    line-height: 40px;
-  }
-
-  .large {
-    width: 212px;
-    height: 36px;
-    line-height: 39px;
+  .btn {
     font-size: 13px;
   }
 
-  .white {
-    margin-top: 4px;
+  .btn.green {
+    margin-top: 41px;
   }
 
-  .green {
-    margin-top: 57px;
+  .btn.white {
+    margin-top: -2px;
   }
 
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 39px;
+  }
+}
 
+@media screen and (max-width: 839px) {
+  .btn.green {
+    margin-top: 92px;
+  }
 }
