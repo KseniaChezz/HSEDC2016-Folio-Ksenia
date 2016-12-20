@@ -37,11 +37,11 @@
     font-size: 13px;
   }
 
-  .btn.green {
+  .btn.large {
     margin-top: 41px;
   }
 
-  .btn.white {
+  .btn.small {
     margin-top: -2px;
   }
 
@@ -53,7 +53,7 @@
 }
 
 @media screen and (max-width: 839px) {
-  .btn.green {
+  .btn.large {
     margin-top: 92px;
   }
 }
