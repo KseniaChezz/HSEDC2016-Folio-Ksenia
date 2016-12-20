@@ -269,6 +269,39 @@ body {
     background-image: url(../images/mockups/768.png);
   }
 
+<<<<<<< HEAD
+  /*.mainSection {
+    width: 1024px;
+    height: 568px;
+  }
+
+  .mainSection h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .mainSection p {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 26px;
+  }*/
+
+  .mainSection.center h2{
+    line-height: 39px;
+  }
+
+  .mainSection.center p{
+    margin-top: 18px;
+  }
+
+  .mainSection section {
+    top: 137px;
+    width: 342px;
+  }
+
+  .mainSection.left section{
+    left: 319px;
+=======
   .mainSection {
     width: 839px;
     height: 1024px;
@@ -276,6 +309,7 @@ body {
 
   .mainSection.left section{
     left: 149px;
+>>>>>>> origin/KseniaChezz
   }
 
   .mainSection.right section {
