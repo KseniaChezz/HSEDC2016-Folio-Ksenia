@@ -9,9 +9,6 @@ body {
   width: 100%;
   min-width: 768px;
   background-color: #fafafa;
-  background-image: url(../images/mockups/1440.png);
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
 .landingWrapper {
@@ -227,7 +224,6 @@ body {
     font-size: 13px;
   }
 
-
   #mockup1 {
     top: 167px;
     right: 192px;
@@ -293,7 +289,6 @@ body {
 
   .mainSection.left section{
     left: 149px;
->>>>>>> origin/KseniaChezz
   }
 
   .mainSection.right section {
