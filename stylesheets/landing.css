@@ -27,6 +27,7 @@ body {
   background-color: white;
   width: 1440px;
   margin: 0 auto;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 }
 
 .mainSection {
@@ -184,11 +185,11 @@ body {
     line-height: 26px;
   }
 
-  .mainSection.center h2{
+  .mainSection.center h2 {
     line-height: 39px;
   }
 
-  .mainSection.center p{
+  .mainSection.center p {
     margin-top: 18px;
   }
 
@@ -197,7 +198,7 @@ body {
     width: 342px;
   }
 
-  .mainSection.left section{
+  .mainSection.left section {
     left: 192px;
   }
 
@@ -265,11 +266,11 @@ body {
     background-image: url(../images/mockups/768.png);
   }
 
-  .mainSection.center h2{
+  .mainSection.center h2 {
     line-height: 39px;
   }
 
-  .mainSection.center p{
+  .mainSection.center p {
     margin-top: 18px;
   }
 
@@ -278,16 +279,16 @@ body {
     width: 342px;
   }
 
-  .mainSection.left section{
+  .mainSection.left section {
     left: 319px;
   }
-  
+
   .mainSection {
     width: 839px;
     height: 1024px;
   }
 
-  .mainSection.left section{
+  .mainSection.left section {
     left: 149px;
   }
 
